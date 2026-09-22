@@ -30,6 +30,7 @@ public class SolicitudLicencia {
     }
 
 
+
     public void consultarEstado() {
         System.out.println("=".repeat(50));
         System.out.println("    Estado del Trámite");
