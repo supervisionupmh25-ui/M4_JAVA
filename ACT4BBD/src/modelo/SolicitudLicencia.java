@@ -23,11 +23,12 @@ public class SolicitudLicencia {
     public void procesarSolicitud() {
         if (requisito.getFueEntregado()) {
             this.aprobada = true;
-            System.out.println("\n>> LA SOLICITUD CON FOLIO " + folio + " HA SIDO APROBADA.");
+            System.out.println("\n>> LA SOLICITUD HA SIDO APROBADA.");
         } else {
-            System.out.println("\n>> LA SOLICITUD CON FOLIO " + folio + " HA SIDO RECHAZADA.\n>> FALTAN DOCUMENTOS.");
+            System.out.println("\n>> LA SOLICITUD HA SIDO RECHAZADA.\n>> FALTAN DOCUMENTOS.");
         }
     }
+
 
     public void consultarEstado() {
         System.out.println("=".repeat(50));
