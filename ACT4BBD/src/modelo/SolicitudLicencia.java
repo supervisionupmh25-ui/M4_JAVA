@@ -37,4 +37,11 @@ public class SolicitudLicencia {
         System.out.println("Tipo de licencia: " + tipoLicencia);
         System.out.println("Aprobado: " + (aprobada ? "Sí" : "No"));
     }
+
+
+
+
+    public String getTipoLicencia() { return tipoLicencia; }
+    public boolean getEstaAprobada() { return aprobada; }
+
 }

@@ -25,4 +25,8 @@ public class Ciudadano {
 
     // Método Getter
     public String getNombre() { return nombre; }
+
+
+    public String getCurp() { return curp; }
+    public String getTelefono() { return telefono; }
 }
